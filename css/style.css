@@ -1,0 +1,85 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #f9f9f9;
+}
+
+.container {
+	height: 100vh;
+	min-height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container__title {
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+
+.container__list {
+	
+}
+
+.lists {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.list-img {
+
+}
+
+.list-text {
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+
+.list-price {
+	font-weight: 700;
+	margin-bottom: 19px;
+}
+
+.list-link {
+	color: #23bac1;
+	border: 1px solid #23bac1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 13px 55px;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+
+.list-link:hover {
+	color: white;
+	background-color: #23bac1;
+}
+
+@media (max-width: 670px) {
+	.lists {
+		height: 100vh;
+		flex-flow: column;
+	}
+
+	.list-link {
+		margin-bottom: 45px;
+	}
+}
