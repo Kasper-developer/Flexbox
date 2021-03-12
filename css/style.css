@@ -31,6 +31,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-left: 0;
 }
 
 .list-item {
@@ -71,15 +72,4 @@ body {
 .list-link:hover {
 	color: white;
 	background-color: #23bac1;
-}
-
-@media (max-width: 670px) {
-	.lists {
-		height: 100vh;
-		flex-flow: column;
-	}
-
-	.list-link {
-		margin-bottom: 45px;
-	}
 }
